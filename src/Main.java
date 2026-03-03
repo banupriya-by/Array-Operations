@@ -8,6 +8,7 @@ class Main {
         System.out.println("Enter array size : ");
         int size = scanner.nextInt();
 
+//        Initialization of an array
         int[] array = new int[size];
 
 //        array value taken from user
@@ -18,6 +19,9 @@ class Main {
 
 //        finding array length
         System.out.println("Length of an array : " + array.length);
+
+//        can change the array value
+        array[0] = 100;
 
 //        Printing an array
         for (int i = 0; i < size; i++) {
