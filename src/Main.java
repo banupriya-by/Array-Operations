@@ -16,16 +16,21 @@ class Main {
             array[i] = scanner.nextInt();
         }
 
+//        finding array length
+        System.out.println("Length of an array : " + array.length);
+
 //        Printing an array
         for (int i = 0; i < size; i++) {
             System.out.print(array[i] + " ");
         }
 
-        System.out.println("-------------");
+        System.out.println("\n-------------");
 
 //        or printing array using for each loop
         for (int Array : array) {
             System.out.print(Array + " ");
         }
+
+
     }
 }
